@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title> DOM events </title>
+	<h1> Dom events</h1>
+	</head>
+	<body>
+	<script>
+		var h1El= document.querySelector('h1');
+		h1El.onclick =function (e){
+			console.log('You clicked h1 at pixel'+ e.x +', '+e.y);
+			console.dir(e);
+		};
+
+		h1El.onmousemove =function (e){
+			console.log('You moved over h1 at pixel'+e.x+','+e.y);
+		}; 
+
+		h1El.onclick =function (e){
+			console.log('click');
+		};
+		h1El.addEventListener('click', function (e){
+			console.log('You clicked h1 at pixel'+ e.x +', '+e.y);
+			console.dir(e);
+		});
+
+		h1El.addEventListener('click', function (e){
+			console.log('click');
+		});
+
+		 function (e){
+		console.log('click');
+		};
+	</script>
+	</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Images</title>
+		<style>
+			img {
+				background-color:white;
+				border:1px solid #999;
+				margin:10px;
+				padding:10px;
+				padding-bottom: 50px;
+				box-shadow: 1px 1px 8px #777;
+				-webkit-filter:grayscale(100%) blur(3px);
+				transition: all 5s ease-in-out;
+			}
+			
+			img[src*="dressup"]{
+				transform:rotate(40deg);
+			}
+			
+			img[src*="kitlers"]{
+				transform:rotate(-15deg);
+			}
+
+			img:hover {
+				transform:rotate(0deg);
+				-webkit-filter:grayscale(0%) blur(0px);
+			}
+		</style>
+	</head>
+	<body>
+		<h1 id="top">Crazy Animals</h1>
+		<img src="img/dressup/catLion.jpg" alt="cat lion"/>
+		<img src="img/kitlers/kitler1.jpg" alt="kitler 1"/>
+		<img src="img/dressup/parrotBee.jpg" alt="parrot bee"/>
+		<img src="img/kitlers/kitler2.jpg" alt="kitler 2"/>
+		<img src="img/dressup/tigerDog.jpg" alt="tiger dog"/>
+		<img src="img/kitlers/kitler3.jpg" alt="kittler 3"/>
+		<br/>
+		<a href="#top">top</a> <br/>
+		<a href="http://animalsdressedasotheranimals.tumblr.com">animals dressed up</a>
+		<a href="http://www.catsthatlooklikehitler.com/">cats that look like hitler</a>
+	</body>
+</html>
+
+
+
+
+
+

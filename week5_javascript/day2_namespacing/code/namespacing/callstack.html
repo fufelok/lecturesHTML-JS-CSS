@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+var funcA= function(){
+	return funcB();
+};
+var funcB= function(){
+	return funcC();
+};
+var funcC= function(){
+	return 'C';
+};
+console.log(funcA());
+</script>

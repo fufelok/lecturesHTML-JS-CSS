@@ -1,0 +1,38 @@
+body{
+	background-image: url(../img/brown.png);
+	font-family: helvetica, arial, sams-serif;
+	margin: 0px;
+	padding: 0px;
+}
+h1 {
+	background-image: url(../img/grey.png);
+	margin:0;
+	padding: 30px;
+	color:#FFF;
+}
+a{
+	color:#222;
+}
+a:hover{
+	color:444;
+
+}
+
+img{
+	max-width:100%;
+}
+
+#toc{
+	width: 250;
+	float: left;
+
+}
+#main{
+	margin-left: 260px;
+
+}
+.sections{
+	max-width: 800px;
+	min-width: 200px;
+	overflow: hidden;
+}

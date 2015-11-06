@@ -1,0 +1,8 @@
+CASH MANIFEST
+#v0.10
+CASHE:
+img/working.jpg
+js/reloadInfo.js
+
+FALLBACK:
+img/woeking.jpg img/offline.img
